@@ -21,9 +21,9 @@ def second_supply_for_fourth_of_july(holiday_hash)
   
 holiday_hash.each do |season, holiday|
   if holiday.count >= 2
-    
+    return holiday[2]
 end
-holiday[2]
+
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
