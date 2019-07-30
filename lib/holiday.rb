@@ -20,8 +20,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
   # return the second element in the 4th of July array
   
 holiday_hash.each do |season, holiday|
-  if holiday.count >= 2
-    return holiday[2]
 end
 
 end
